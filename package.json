@@ -1,0 +1,39 @@
+{
+  "name": "coda-openai-vision-pack",
+  "version": "0.1.0",
+  "description": "A Coda Pack that seamlessly integrates with OpenAI's Vision API, allowing users to directly send images from a Coda table and receive enriched visual analysis and insights. Perfect for enhancing workflows with AI-powered image recognition and prompt-based queries directly within your Coda docs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Dallas jondallasjr@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@codahq/packs-sdk": "^1.7.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "openai": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "coda",
+    "openai",
+    "vision",
+    "\"image",
+    "analysis\"",
+    "machine-learning",
+    "automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jondallasjr/coda-openai-vision-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jondallasjr/coda-openai-vision-pack/issues"
+  },
+  "homepage": "https://github.com/jondallasjr/coda-openai-vision-pack#readme"
+}
